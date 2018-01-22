@@ -1,0 +1,40 @@
+.newsletter {
+  .form-control {
+    font-family: "Avenir-Book";
+
+    &:focus {
+      border-color: #AA2525;
+    }
+  }
+
+  .sign-up-form {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 500px;
+    margin-left: calc(50% - 250px);
+
+    .btn {
+       font-family: "Avenir-Roman";
+       font-size: 20px;
+       width: 100%;
+       background: #AA2525;
+       border-width: 0px
+    }
+  }
+
+  h4 {
+    margin: auto 10%;
+  }
+
+  .name-span {
+    .first-name {
+      width: 200px;
+      margin-right: 50px;
+    }
+
+    .last-name {
+      width: 250px;
+    }
+    display: flex;
+  }
+}

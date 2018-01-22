@@ -1,0 +1,132 @@
+.container-wrapper {
+  margin: 60px auto;
+  max-width: 1100px;
+
+}
+
+.container-interior {
+  margin: auto;
+  max-width: 90%
+}
+
+.content {
+  background: #FFF;
+}
+
+.page-content {
+  min-height: 100px;
+  padding: 37px 54px;
+  position: relative;
+}
+
+.section-tabs {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 10px;
+
+  li {
+    display: inline-block;
+    a {
+      color: #292b2c;
+      font-family: 'Avenir-Heavy';
+      font-size: 14px;
+      letter-spacing: 1px;
+      padding: 10px 30px;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding-bottom: 15px;
+      cursor: pointer;
+      &.active {
+        background-color: #FFF;
+      }
+    }
+
+  }
+}
+.link {
+  font-family: "Avenir-Medium";
+  font-size: 16px;
+  color: #AA2525;
+  cursor: pointer;
+  &:hover {
+    color: #AA2525;
+    text-decoration: none;
+
+  }
+}
+
+.data-table {
+  .list-group-item {
+    border: 0px;
+    padding: 20px 40px;
+  }
+
+  .list-group {
+    padding: 20px;
+  }
+
+  hr {
+    width: 95%
+  }
+}
+.posts-table {
+  vertical-align: top;
+  padding: 10px;
+  margin-top: 20px;
+
+  .posts-title {
+    font-size: 14px;
+    font-family: "Avenir-Black";
+    padding-left: 10px;
+    margin-top: 10px;
+  }
+
+  .post-link {
+      padding: 10px;
+      border: 0px;
+
+      a {
+        font-family: "Avenir-Medium";
+        font-size: 14px;
+        color: #AA2525;
+        cursor: pointer;
+        text-align: left;
+        margin: 0px auto;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+  }
+}
+
+.center {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.vert-middle {
+  vertical-align: middle;
+}
+
+
+.vert-top {
+  vertical-align: top;
+}
+
+.vert-bottom {
+  vertical-align: bottom;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}

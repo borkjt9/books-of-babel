@@ -1,0 +1,14 @@
+.landing-page {
+  width: 100%;
+  height: calc(90vh - 107px);
+  background: url(../../../assets/img/home_background.png) no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  display: table;
+  
+  .text-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}

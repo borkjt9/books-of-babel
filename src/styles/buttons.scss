@@ -1,0 +1,22 @@
+.btn {
+  background-color: #AA2525;
+  color: white;
+  font-size: "22px";
+  font-family: "Avenir-Roman";
+  border-width: 0px;
+  border-radius: 4px;
+  padding: 16px auto;
+  &:hover {
+    color: white;
+    font-family: "Avenir-Roman";
+    padding: 16px auto;
+  }
+}
+
+.btn-left {
+  float: left;
+}
+
+.btn-right {
+  float: right;
+}

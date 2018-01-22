@@ -1,0 +1,43 @@
+.header {
+  .navbar {
+      background-color: #2D2D2D;
+      color: white;
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+      border-radius: 0;
+      height: 90px;
+
+  }
+    .navbar ul {
+      height: 90px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+    }
+
+  .header-link {
+      display: inline;
+      margin-right: 10px;
+      color: #E8E8E8;
+      font-size: 14px;
+      letter-spacing: 0.66px;
+      position: relative;
+      text-transform: uppercase;
+      font-family: 'Avenir-Roman';
+     &:hover{
+       color: #D90917;
+       text-decoration: none;
+       font-family: 'Avenir-Medium';
+       cursor: pointer;
+
+      }
+    }
+
+  .activeHeader {
+    color: #D90917;
+    text-decoration: none;
+    font-family: 'Avenir-Medium';
+  }
+}
